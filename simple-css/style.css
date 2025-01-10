@@ -1,0 +1,44 @@
+h1 {
+  background-color: aqua;
+  color: red;
+  width: 800px;
+}
+
+.primaryButton {
+  background-color: #00a700; /* Hex Code */
+  font-family: sans-serif;
+  font-size: x-large;
+  color: rgb(255, 255, 255); /* RGB Code */
+}
+
+.deleteButton {
+  background-color: #ff0000;
+  font-family: sans-serif;
+  font-size: x-large;
+  color: rgb(255, 255, 255);
+}
+
+.button-wrapper {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: black 1px solid;
+  background-color: orange;
+}
+
+.box-wrapper {
+  background-color: lightsteelblue;
+  /* display: flex; */
+  /* flex-direction: column; */
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+  /* gap: 10px; */
+  row-gap: 20px;
+  column-gap: 40px;
+}
